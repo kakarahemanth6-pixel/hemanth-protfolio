@@ -1,5 +1,5 @@
-body{background:linear-gradient(135deg,#667eea,#764ba2);font-family:sans-serif;display:flex;justify-content:center;padding-top:80px;min-height:100vh;margin:0}
-.card{background:white;padding:30px;border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,0.3);text-align:center}
-h1{color:#667eea}
-#myBtn{background:#667eea;color:white;border:none;padding:12px 25px;border-radius:10px;cursor:pointer;font-size:16px}
-#myBtn:hover{background:#764ba2}
+body{background:#f0f0f0;font-family:sans-serif;display:flex;justify-content:center;padding-top:50px}
+.card{background:white;padding:20px;border-radius:15px;box-shadow:0 4px 10px rgba(0,0,0,0.1);text-align:center;height:fit-content;width:300px}
+.title{color:#ff9eb5}
+#myBtn{background:green;color:white;border:none;padding:10px 20px;border-radius:8px;cursor:pointer}
+#msg{color:blue;font-weight:bold;margin-top:10px}
