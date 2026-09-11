@@ -1,0 +1,5 @@
+body{background:#f0f0f0;font-family:sans-serif;display:flex;justify-content:center;padding-top:50px}
+.card{background:white;padding:20px;border-radius:15px;box-shadow:0 4px 10px rgba(0,0,0,0.1);text-align:center}
+.title{color:#ff9eb5}
+#myBtn{background:green;color:white;border:none;padding:10px 20px;border-radius:8px;cursor:pointer}
+#msg{color:blue;font-weight:bold;margin-top:10px}
