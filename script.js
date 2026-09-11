@@ -1,0 +1,1 @@
+document.getElementById("myBtn").addEventListener("click", function(){document.getElementById("msg").innerText="nenu developer ayyipoyanu";});
