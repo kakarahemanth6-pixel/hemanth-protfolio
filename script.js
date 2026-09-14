@@ -1,1 +1,8 @@
-document.getElementById("btn").addEventListener("click", function(){document.getElementById("msg").innerText="nenu developer ayyipoyanu";});
+document.querySelectorAll('a[href^="#"]').forEach(a =>  {
+  a.addEventListener('click', (e) =>   {
+    e.preventDefault();
+    document.querySelector(a.getAttribute('href')).scrollIntoView({behavior:'smooth'});
+  });
+});
+
+console.log("portfolio loaded-Hemanth.dev🔥");
