@@ -61,7 +61,12 @@ button{
   background:#eee;
   border:2px solid rgba(0,0,0,0.3);
 }
-@media
-   (max-width:768px){
-   .grid-template-coloumns:1fr}
-   }
+@media(max-width: 768px){
+  .grid{
+    grid-template-columns: 1fr;
+    max-width: 350px;
+  }
+  .price-card.popular{
+    transform: scale(1);
+  }
+}
