@@ -1,48 +1,14 @@
 *{box-sizing:border-box;margin:0;padding:0}
-body{
-background:#fff8f0;font-family:system-ui;
-padding:50px 40px;
-}
-h1{
-text-align:center;margin-bottom:30px;font-size:40px;
-}
-.food-grid{
-  max-width:1000px;margin:auto;display:grid;grid-template-columns:1fr;gap:20px}
-.food-card{
-  background:white;border-radius:20px;
-  border:1 solid #eee;transition:0.3s;
-  position:relative;height:100px;justify-content:center;
-}
-.food-card:hover{
-  transform:translateY(-10px);box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-}
-.food-card img{
-  object-fit:cover;
-}
-.info{
-  padding:30px;
-}
-.info h3{
-  font-size:120px;
-}
-.info p{
-  color:grey;font-size:80px;
-}
-.price-row{
-    display:flex;justify-content:space-between;
-    align-items:center;
-    margin-bottom:20px;font-size:70px;
-  }
-.price-row span{
-  color:green;padding:3px;border-radius:10px;font-weight:bold;
-}
-button{
-  width:100%;padding:20px;border:none;border-radius:12px;background:black;color:white;cursor:pointer;font-weight:bold;font-size:40px;
-}
-.tag{
-  position:absolute;top:9px;font-size:20px;background: orange;border-radius:20px;padding:20px;
-  font-weight:bold;z-index:1;left:3px;width:20%;
-}
-@media(max-width:768px)
-{.food.grid{grid-template-columns:1fr;max-width:360px}
-.best{transform:scale(1)}}
+body{background:#fff8f0;font-family:system-ui;padding:15px}
+h1{text-align:center;margin-bottom:20px;font-size:24px}
+.food-grid{max-width:1000px;margin:auto;display:grid;grid-template-columns:1fr 1fr 1fr;gap:15px}
+.food-card{background:white;border-radius:15px;overflow:hidden;border:1px solid #eee;position:relative}
+.food-card img{width:100%;height:180px;object-fit:cover;display:block}
+.info{padding:12px}
+.info h3{font-size:18px}
+.info p{color:grey;font-size:13px}
+.price-row{display:flex;justify-content:space-between;margin:8px 0}
+.price-row span{color:green;background:#e8f5e9;padding:3px 8px;border-radius:8px;font-size:12px}
+button{width:100%;padding:10px;background:black;color:white;border:none;border-radius:10px}
+.tag{position:absolute;top:10px;left:10px;background:orange;padding:4px 8px;border-radius:15px;font-size:10px;font-weight:bold}
+@media(max-width:700px){.food-grid{grid-template-columns:1fr;max-width:350px}}
