@@ -1,17 +1,17 @@
 *{box-sizing:border-box;margin:0;padding:0}
 body{
 background:#fff8f0;font-family:system-ui;
-padding:30px 20px;
+padding:50px 40px;
 }
 h1{
-text-align:center;margin-bottom:30px;font-size:80px;
+text-align:center;margin-bottom:30px;font-size:40px;
 }
 .food-grid{
-  max-width:1000px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  max-width:1000px;margin:auto;display:grid;grid-template-columns:1fr;gap:20px}
 .food-card{
   background:white;border-radius:20px;
-  border:1px solid #eee;transition:0.3s;
-  position:relative;padding:10px;height:100px; 
+  border:1 solid #eee;transition:0.3s;
+  position:relative;height:100px;justify-content:center;
 }
 .food-card:hover{
   transform:translateY(-10px);box-shadow: 0 20px 40px rgba(0,0,0,0.15);
@@ -39,12 +39,9 @@ text-align:center;margin-bottom:30px;font-size:80px;
 button{
   width:100%;padding:20px;border:none;border-radius:12px;background:black;color:white;cursor:pointer;font-weight:bold;font-size:40px;
 }
-.food-card-best{
-  border:5px solid orange;transform:scale(1.05);
-}
 .tag{
-  position:absolute;top:20px;font-size:40px;padding:20px;background: orange ;border-radius:25px;
-  font-weight:bold;z-index:1;left:12px;
+  position:absolute;top:9px;font-size:20px;background: orange;border-radius:20px;padding:20px;
+  font-weight:bold;z-index:1;left:3px;width:20%;
 }
 @media(max-width:768px)
 {.food.grid{grid-template-columns:1fr;max-width:360px}
