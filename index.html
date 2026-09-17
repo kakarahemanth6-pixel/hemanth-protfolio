@@ -1,43 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>level 3-food app</title>
+ <title>Today's special</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <h1>Today's special🔥</h1>
 <div class="food-grid">
 <div class="food-card">
-<img src="chicken.jpg"class="photo">
-<div class="info">
-  <h3>chicken biryani</h3>
-  <p>delivery•25mins</p>
-  <div class="price-row"><b>₹249</b><span>4.8⭐</span></div>
-  <button>Add to cart</button>
-</div>
-<div class="food-card best">
-<div class="tag">BestSeller</div>
-<img src="dum.jpg"class="photo">
-<div class="info">
-<h3>dum.briyani</h3>
-<p>delivery•15mins</p>
-<div class="price-row"><b>₹149</b><span>4.9⭐</span></div>
-<button>Add to cart</button>
-</div>
-<div class="food-card">
-<img src="beef.jpg"class="photo">
-<div class="info">
-<h3>beef biryani</h3>
-<p>delivery•20mins</p>
-<div class="price-row"><b>₹299</b><span>4.7⭐</span></div>
-<button>Add to cart</button>
+<img src="chicken.jpg" class="photo">
+ <div class="info">
+ <h2>chicken biryani</h2>
+ <p>delivery•25mins</p>
+ <div class="price-row"><b>₹249</b><span>4.8⭐</span></div>
+ <button onclick="orderNow('chicken biryani-249')">order on WhatsApp</button>
+ </div>
+ </div>
+ <div class="food-card">
+ <div class="tag">best seller</div>
+ <img src="Dum.biryani.jpg">
+ <div class="info">
+ <h2>Dum biryani</h2>
+ <p>delivery•15mins</p>
+ <div class="price-row"><b>₹149</b><span>4.9⭐</span></div>
+ <button onclick="orderNow('Dum biryani-149')">order on WhatsApp</button>
+  </div>
+  </div>
+  <div class="food-card">
+  <div class="info">
+   <img src="beef.biryani.jpg">
+   <h2>beef biryani</h2>
+   <p>delivery•20mins</p>
+   <div class="price-row"><b>₹299</b><span>4.7⭐</span></div>
+   <button onclick="orderNow('beef biryani -299')">order on WhatsApp</button>
+   
   
-</div>
-</div>
+  </div>
+   
+  </div>
+<script src="main.js"></script>
 
-
-
-
+  
+  
+  
+  
 </body>
-
 </html>
