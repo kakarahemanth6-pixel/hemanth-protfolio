@@ -11,7 +11,7 @@ text-align:center;margin-bottom:30px;font-size:40px;
 .food-card{
   background:white;border-radius:20px;
   border:1 solid #eee;transition:0.3s;
-  position:relative;height:100px;justify-content:center;
+  position:relative;height:220px;justify-content:center;
 }
 .food-card:hover{
   transform:translateY(-10px);box-shadow: 0 20px 40px rgba(0,0,0,0.15);
