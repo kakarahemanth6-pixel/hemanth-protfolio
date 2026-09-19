@@ -22,9 +22,13 @@ nav ul {
 nav li{
   cursor:pointer;
 }
-.h1{
+.nav h1{
   font-weight:bold;
  font-size:10px;
+ display:flex;
+ align-items:center;
+ gap:5px;
+ white-space:nowrap;
 }
 .hero{
   text-align:center;
