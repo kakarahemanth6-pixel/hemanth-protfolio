@@ -86,4 +86,15 @@ body{
 .h-item:hover{
   transform:scale(1.09);
 }
- 
+@media(min-width:768px){
+ body{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+  max-width:1200px;
+  margin:0 auto;
+ }
+ .hourly{
+  grid-column:1/-1;
+ }
+}
